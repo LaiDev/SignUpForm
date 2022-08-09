@@ -22,24 +22,22 @@ body {
     width: 1280px;
     border: solid 2px black;
     border-radius: 15px;
+    background-color: rgb(169, 248, 224);
 }
 
 .left-content {
     background-image: url("./Imgs/gameArt.jpg");
-    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    background-position: center;
+    border-radius: 14px;
+    background-repeat: no-repeat;
     height: 100%;
     width: 750px;
 
 }
 
-.right-content {
-    background-color: gray;
 
-}
-
-p {
+.sign-up {
     margin: 50px;
     font-size: 4rem;
     font-family: 'Fredoka One', cursive;
@@ -53,8 +51,6 @@ p {
     padding: 0px 50px;
 }
 
-
-
 label {
     font-family: 'Uchen', serif;
 }
@@ -63,14 +59,21 @@ label {
     padding: 10px 0px;
 }
 
+.form-label:focus {
+    outline-color: green;
+}
+
 .form-btn {
-    border: none;
+    border: black 2px solid;
     border-radius: 10px;
-    width: 150px;
+    width: 200px;
     padding: 15px;
     margin-top: 25px;
     align-self: center;
-    background-color: green;
+    background-color: #E5FFDB;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 input {
@@ -81,4 +84,16 @@ input {
     width: 100%;
     max-width: 425px;
 
+}
+
+.sign-in
+{
+    text-align: center;
+    margin: 25px;
+}
+
+.sign-in a
+{
+    text-decoration: none;
+    color: rgb(255, 94, 0);
 }
